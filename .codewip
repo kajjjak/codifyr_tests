@@ -1,11 +1,29 @@
 {
-  "name": "Github load test 2",
+  "name": "Github load test 32",
   "created": 1383315636782,
   "updated": 1383315636782,
   "private": false,
   "version": "master",
-  "deployment": {},
+  "deployment": {
+    "github": {
+      "7": "",
+      "repobranch": "master",
+      "username": "",
+      "password": "",
+      "reponame": "codifyr_tests",
+      "repouser": "kajjjak",
+      "repopush_comment": "Adding files for tests"
+    }
+  },
   "offline": true,
   "fork_id": "1wbAKdoKJ",
-  "description": ""
+  "description": "",
+  "preview": "qyoe3hVWj",
+  "compiler": {
+    "Markdown": {
+      "options": {
+        "tables": false
+      }
+    }
+  }
 }
