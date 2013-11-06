@@ -1,5 +1,6 @@
+
 apikey = "YOUR GOOGLE API KEY GOES HERE"
- 
+
 shorten_url = (url, success_callback, error_callback) ->
  
   xhr = Titanium.Network.createHTTPClient()
@@ -8,5 +9,6 @@ shorten_url = (url, success_callback, error_callback) ->
   xhr.onload = () -> success_callback xhr.status, xhr.responseText
   xhr.onerror = () -> error_callback xhr.status, xhr.responseText
   content =  "{\"longUrl\": \"#{url}\"}"
-  xhr.send content
+  xh.send content
+
   
